@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(8, 0, 0);
+    color: white;
+}
+.side{
+    display: flex;
+    flex-direction: column;
+}
+.sideitem{
+    padding: 20px;
+}
+.big{
+    display: flex;
+}
+.nav{
+    display: flex;
+    align-items: center;
+}
+.nav{
+    display: flex;
+    gap: 100px;
+}
+input[type="search"]{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border-color: brown;
+}
+.navitem2{
+    gap: 5px;
+    padding: 10px;
+}
+.navitem3{
+    display: flex;
+    gap: 10px;
+}
+.profile{
+    width: 30px;
+    border-radius: 50px;
+    height: 30px;
+    background-color: orange;
+} 
+.options{
+    display: flex;
+    gap: 40px;
+}
+.option{
+    padding: 6px;
+    font-size: 20px;
+    background-color: red;
+}
